@@ -37,14 +37,14 @@ var (
 		"nov": 11,
 		"dec": 12,
 	}}
-	dow = bounds{0, 6, map[string]uint{
-		"sun": 0,
-		"mon": 1,
-		"tue": 2,
-		"wed": 3,
-		"thu": 4,
-		"fri": 5,
-		"sat": 6,
+	dow = bounds{1, 7, map[string]uint{
+		"sun": 1,
+		"mon": 2,
+		"tue": 3,
+		"wed": 4,
+		"thu": 5,
+		"fri": 6,
+		"sat": 7,
 	}}
 )
 
